@@ -55,6 +55,7 @@ var tests = {
     },
     squareRootTest: function() {
         assert.areEqual(5.0, code.squareRoot(25.0));
+        assert.areEqual(1.0, code.squareRoot(1.0));
         assert.isInRange(1.414, 1.4144, code.squareRoot(2.0));
     }
 
